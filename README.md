@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="image.png" alt="Alt text" width="600">
 
-## Getting Started
+# Learn Next.js 13 With This One Project
 
-First, run the development server:
+https://www.youtube.com/watch?v=NgayZAuTgwM&ab_channel=WebDevSimplified
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> Next.js is constantly evolving and one of the biggest updates is the addition of server components and server actions. This video goes over all the new Next.js 13 changes and how you can use these new features to create a simple todo list application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project --> **Todo List** <br>
+Channel --> **Web Dev Simplified 1,42 mi de inscritos** <br>
+Date Created --> **23 de mai. de 2023**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Observations
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-  npx create-next-app@latest
+-  tailwind
+-  typescript
+-  prisma for db setup
+-  client and server components
+-  app source folder
+-  dotenv
 
-## Learn More
+### Components
 
-To learn more about Next.js, take a look at the following resources:
+-  page.tsx (server)
+-  layour.tsx
+   -  newTodo page (server)
+   -  TodoItem item (client)
+      <br>
+      <br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+⏱️ Timestamps<br>
+00:00 - Introduction<br>
+00:44 - Setup<br>
+01:50 - Database Setup<br>
+05:45 - Remove Boilerplate Code<br>
+07:20 - Next.js 13 Routing<br>
+08:35 - Home Page<br>
+10:41 - Server Component Data Fetching<br>
+17:34 - New Todo Page<br>
+20:24 - Server Actions (Forms)<br>
+25:20 - Server Actions (Buttons)
